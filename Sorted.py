@@ -30,3 +30,17 @@ print(sorted(students, key= lambda student: student[1])) # this sorts them by gr
 print(sorted(students, key= lambda student: student[2])) # sorted by age 
 
 # type() function
+class Car:
+    pass
+class Truck(Car):
+    pass
+
+c= Car()
+t= Truck()
+print(type(c))
+print(type(t))
+print(type(c) == type(t)) # returns False because type doesnt count inheritence 
+
+# to use inheritence we can use isInstance
+# example
+print(isinstance(c, Car)) # is c an instance of Car , this will return true
