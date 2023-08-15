@@ -17,3 +17,10 @@ print(sorted("Popcorn pops with butter to make buttery popcorn".split(), key= st
 
 # to reverse the list output we can use the reverse method 
 print(sorted(children, reverse= True))
+
+
+leaderBoard={231: "CKL", 123 :"ABC", 456: " DEF"}
+print(sorted(leaderBoard, reverse= True )) # this reversed the keys
+
+print(leaderBoard.get(456)) # this will get the number in key position 456 which is DEF
+
