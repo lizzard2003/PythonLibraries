@@ -24,3 +24,9 @@ print(sorted(leaderBoard, reverse= True )) # this reversed the keys
 
 print(leaderBoard.get(456)) # this will get the number in key position 456 which is DEF
 
+students= [('alice', 'A', 12),('bob', 'C', 15),('mike', 'B', 17)]
+print(sorted(students, key= lambda student: student[0])) # this sorts them by name 
+print(sorted(students, key= lambda student: student[1])) # this sorts them by grade
+print(sorted(students, key= lambda student: student[2])) # sorted by age 
+
+# type() function
